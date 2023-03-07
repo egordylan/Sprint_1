@@ -3,7 +3,7 @@ const userPassword = 'password123';
 const mainLink = 'https://automationteststore.com/';
 
 
-describe('Login Successfull', async function () {
+describe('Login Successfull1111', async function () {
     it('Open the page', async function() {
         await browser.url(mainLink);
         await browser.waitUntil(async function() {
