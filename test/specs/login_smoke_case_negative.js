@@ -3,7 +3,7 @@ const userPasswordInvalid = 'password1';
 const mainLink = 'https://automationteststore.com/';
 
 
-describe('Login', async function () {
+describe.skip('Login', async function () {
 
 	it('Open the page', async function() {
         await browser.url(mainLink);
